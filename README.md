@@ -1,26 +1,35 @@
 
 
-* 대략적인 내용
- - 알람을 설정하여 해당 시간이 될경우 알람 노래와 함께 당일 코로나 상황과 날씨를 브리핑 해줌
-
-
-* 추가적으로 시도해 볼 것들
- - 알람 설정을 안드로이드에서 어플로  조작하는 것
- - 사용자에게 알람이 울릴때  내가 원하는 내용만 출력하도록 설정 받는 것
+* Service 소개
+ - 간단하다. 현재 코로나 홈페이지와 네이버 미세먼지 정보를 불러와 내가 선택한 지역의 상황을  TTS를 통해
+  출력해주는 것.
+ 
 
 
 
 사용한 기능 설치
 
 mplayer
-- https://pubdata.tistory.com/176
+
+> sudo apt-get install mplayer
 
 python
 
+> sudo apt-get install python3
+ - 기본적으로도 설치 되어있지만 python3를 사용하기 위해 다운받았습니다
+
 blutueth
 
+ - 블루투스를 터미널에서 하는 방법이 있지만 좀더 편리하게 안드로이드 VNC를 사용하여 연결했습니다
+
+방법은 아래 링크를 확인하세요
+https://m.blog.naver.com/PostView.nhn?blogId=cosmosjs&logNo=221008665859&proxyReferer=https:%2F%2Fwww.google.com%2F
+
 beautifulsoup 
-- https://sites.google.com/site/raspberrypieducation/programmingtools/python/beautifulsoup
+
+> sudo apt-get install python-bs4
+
+
 
 
 각 지역 코드
