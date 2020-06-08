@@ -7,25 +7,25 @@
 
 
 
-##사용한 기능 설치
+******************사용한 기능 설치************************8
 
-mplayer
+**mplayer**
 
 > sudo apt-get install mplayer
 
-python
+**python**
 
 > sudo apt-get install python3
  - 기본적으로도 설치 되어있지만 python3를 사용하기 위해 다운받았습니다
 
-blutueth
+**blutueth**
 
  - 블루투스를 터미널에서 하는 방법이 있지만 좀더 편리하게 안드로이드 VNC를 사용하여 연결했습니다
 
 방법은 아래 링크를 확인하세요
-https://m.blog.naver.com/PostView.nhn?blogId=cosmosjs&logNo=221008665859&proxyReferer=https:%2F%2Fwww.google.com%2F
+- https://m.blog.naver.com/PostView.nhn?blogId=cosmosjs&logNo=221008665859&proxyReferer=https:%2F%2Fwww.google.com%2F
 
-beautifulsoup 
+**beautifulsoup** 
 
 > sudo apt-get install python-bs4
 
@@ -34,6 +34,7 @@ beautifulsoup
 
 # 각 지역 코드
  - HTML 정보를 불러오며 해당 사이트가 저장한 class 번호를 그대로 따와 사용했습니다.
+
 서울 1 
 부산 2 
 대구 3 
