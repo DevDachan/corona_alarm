@@ -82,7 +82,7 @@ def start(data_s):
 	ufdust = int(ufdust_num)
 
 ## 출력문-----------------------------------------------------------------------------------------
-	print("현재 서울의 미세먼지 농도는",dust, "이고 초미세먼지 농도는 ",ufdust,"입니다")
+	
 	if dust>0:
 		dust_state = "좋음"
 	elif dust>30:
@@ -102,10 +102,11 @@ def start(data_s):
 	elif ufdust>75:
 		ufdust_state = "매우 나쁨"
 
-
+	
 	ak = "오늘 코로나 상황을 알려 드리겠습니다.  " + coro_name + "지역의  코로나  확진자  수 는 " + coro_num + "명 이고 어제 보다" + coro_before + "명 증가 됐습니다"
 	bk = " ()() "+coro_name + "지역 미세먼지 농도 수치는 " + str(dust) + "이므로 " +dust_state + " 상태 이고 초미세먼지 농도 수치는  "+ str(ufdust) +" 이므로 "+ufdust_state+" 상태 입니다." 
 	fi = " 오늘 하루도 행복한 하루 되세요"
+	print(ak+bk+fi)
 	text = "http://translate.google.com/translate_tts?ie=UTF-8&total=1&idx=0&textlen=32&client=tw-ob&q="+ak+bk+fi+"&tl=ko-kr"
 	os.system('wget -q -U Mozilla -O mp3_file.mp3 "%s"' %text)
 	os.system('mplayer mp3_file.mp3')
