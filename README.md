@@ -35,6 +35,7 @@
 # 각 지역 코드
  - HTML 정보를 불러오며 해당 사이트가 저장한 class 번호를 그대로 따와 사용했습니다.
 
+**코로나**
 서울 1 
 부산 2 
 대구 3 
@@ -54,5 +55,28 @@
 제주 17 
 검역 18 
 
+> http://ncov.mohw.go.kr/
+
+**미세먼지**
+서울 09
+부산 08
+대구 06
+인천 11
+광주 05
+대전 07
+울산 10
+세종 17
+경기 02
+강원 01
+충북 16
+충남 15
+전북 13
+전남 12
+경북 04
+경남 03
+제주 14
 
 
+> https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&query=%EC%A0%84%EA%B5%AD%EB%AF%B8%EC%84%B8%EB%A8%BC%EC%A7%80
+
+> https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&query=%EC%A0%84%EA%B5%AD%EC%B4%88%EB%AF%B8%EC%84%B8%EB%A8%BC%EC%A7%80
