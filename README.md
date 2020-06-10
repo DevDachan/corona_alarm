@@ -1,10 +1,10 @@
 
 
 # Service 소개
- - 간단하다. 라즈베리파이에서 현재 실시간 코로나 정보와 네이버 미세먼지 정보를 불러와 내가 선택한 지역의 상황을 TTS를 통해
+ - 간단합니다. 라즈베리파이에서 현재 실시간 코로나 정보와 네이버 미세먼지 정보를 불러와 내가 선택한 지역의 상황을 TTS를 통해
   출력해주고 이것을 안드로이드로 제어가 가능하게 만들었습니다. 또한 사용자가 해당 어플에서 알람을 설정했을때 핸드폰 알람이 울림과 동시에 당일 코로나 상황을 알려줍니다.
 
- - 제가 사용하는 라즈베리파이는 raspberrypi.local에 접속이 안되기 때문에 모든 파일은 웹 주소가 IP주소로 되어 있습니다
+ - 제가 사용하는 라즈베리파이는 raspberrypi.local에 접속이 안되기 때문에 모든 파일은 웹 주소가 Local IP주소로 되어 있습니다
  따라서 다른 사용자가 사용하기 위한 raspberrypi.local로 만들어진 apk를 첨부하고 appinventor 소스도 첨부합니다.
 
 
@@ -78,7 +78,11 @@
 경남 03
 제주 14
 
-
 > https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&query=%EC%A0%84%EA%B5%AD%EB%AF%B8%EC%84%B8%EB%A8%BC%EC%A7%80
-
 > https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&query=%EC%A0%84%EA%B5%AD%EC%B4%88%EB%AF%B8%EC%84%B8%EB%A8%BC%EC%A7%80
+
+
+# 해당 서비스 개선할 점
+ - 먼저 어플상에서는 핸드폰에서 어플을 종료후 알람이 울리는 것은 구현하지 못함
+ - 라즈베리 파이에서 tts를 출력하며 음성이 매끄럽지 않음
+
