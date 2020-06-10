@@ -36,7 +36,12 @@
 
 > sudo apt-get install python-bs4
 
+**TTS**
 
+> wget -q -U Mozilla -O mp3_file.mp3 "http://translate.google.com/translate_tts?ie=UTF-8&total=1&idx=0&textlen=32&client=tw-ob&q=내가 원하는 text 입력&tl=ko-kr"
+
+ - 해당 코드를 입력하게 되면 사용자가 입력한 text를 mp3 파일로 다운로드가 가능합니다
+ 
 
 # 각 지역 코드
  - HTML 정보를 불러오며 해당 사이트가 저장한 class 번호를 그대로 따와 사용했습니다.
