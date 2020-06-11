@@ -1,4 +1,5 @@
-
+#관련 동영상
+https://youtu.be/tWR_8Br5AoY
 
 # 코로나 알림 소개
  - 간단합니다. 라즈베리파이에서 현재 실시간 코로나 정보와 네이버 미세먼지 정보를 불러와 내가 선택한 지역의 상황을 TTS를 통해
@@ -23,14 +24,13 @@
 **python**
 
 > sudo apt-get install python3
- - 기본적으로도 설치 되어있지만 python3를 사용하기 위해 다운받았습니다
+> 기본적으로도 설치 되어있지만 python3를 사용하기 위해 다운받았습니다
 
 **blutueth**
 
- - 블루투스를 터미널에서 하는 방법이 있지만 좀더 편리하게 안드로이드 VNC를 사용하여 연결했습니다
-
-방법은 아래 링크를 확인하세요
-- https://m.blog.naver.com/PostView.nhn?blogId=cosmosjs&logNo=221008665859&proxyReferer=https:%2F%2Fwww.google.com%2F
+> 블루투스를 터미널에서 하는 방법이 있지만 좀더 편리하게 안드로이드 VNC를 사용하여 연결했습니다
+> 방법은 아래 링크를 확인하세요
+> https://m.blog.naver.com/PostView.nhn?blogId=cosmosjs&logNo=221008665859&proxyReferer=https:%2F%2Fwww.google.com%2F
 
 **beautifulsoup** 
 
@@ -40,11 +40,11 @@
 
 > wget -q -U Mozilla -O mp3_file.mp3 "http://translate.google.com/translate_tts?ie=UTF-8&total=1&idx=0&textlen=32&client=tw-ob&q=내가 원하는 text 입력&tl=ko-kr"
 
- - 해당 코드를 입력하게 되면 사용자가 입력한 text를 mp3 파일로 다운로드가 가능합니다
+> 해당 코드를 입력하게 되면 사용자가 입력한 text를 mp3 파일로 다운로드가 가능합니다
  
 
 # 각 지역 코드
- - HTML 정보를 불러오며 해당 사이트가 저장한 class 번호를 그대로 따와 사용했습니다.
+> HTML 정보를 불러오며 해당 사이트가 저장한 class 번호를 그대로 따와 사용했습니다.
 
 **코로나**
 서울 1 
