@@ -1,5 +1,5 @@
 # 관련 동영상
-https://youtu.be/tWR_8Br5AoY
+https://youtu.be/lSJRENsfYAg
 
 # 코로나 알림 소개
  - 간단합니다. 라즈베리파이에서 현재 실시간 코로나 정보와 네이버 미세먼지 정보를 불러와 내가 선택한 지역의 상황을 TTS를 통해
