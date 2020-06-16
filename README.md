@@ -115,5 +115,5 @@ https://youtu.be/lSJRENsfYAg
 > TTS 출력 방법
 > https://blog.naver.com/kkyy0126/221434627160
 
- - Beautifulsoup의 Html값을 불러오고 각 지역에 따른 출력을 내는 것이나 App에서 알람을 제외한  직접 구현했습니다.
+ - Beautifulsoup의 Html값을 불러오고 각 지역에 따른 출력을 내는 것이나 App에서 알람을 제외한 모든 것은 직접 구현했습니다.
 
