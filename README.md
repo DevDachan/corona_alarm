@@ -100,3 +100,20 @@ https://youtu.be/lSJRENsfYAg
 
 # 추가 문의 사항
  - 21700351@handong.edu
+ 
+ 
+# 해당 기능 출처 
+> 안드로이드 socket 사용법
+> https://www.youtube.com/watch?v=0Va7LZX2Uq8
+
+> beautifulsoup 사용법
+> https://sites.google.com/site/raspberrypieducation/programmingtools/python/beautifulsoup
+
+> 앱인벤터 알람 구현
+> https://post.naver.com/viewer/postView.nhn?volumeNo=7140288&memberNo=11439725
+
+> TTS 출력 방법
+> https://blog.naver.com/kkyy0126/221434627160
+
+ - Beautifulsoup의 Html값을 불러오고 각 지역에 따른 출력을 내는 것이나 App에서 알람을 제외한  직접 구현했습니다.
+
